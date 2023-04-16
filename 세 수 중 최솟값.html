@@ -5,13 +5,20 @@
   </head>
   <body>
     <script>
+      // 내가 푼것
       function solution(a, b, c) {
         let answer;
         a < b ? (answer = a) : (answer = b);
         c < answer ? (answer = c) : (answer = answer);
         return answer;
       }
-
+      // 풀이
+    //   function solution(a, b, c) {
+    //     let answer;
+    //     if (a < b) answer = b;
+    //     if (c < answer) answer = c;
+    //     return answer;
+    //   }
       console.log(solution(24, 15, 4));
     </script>
   </body>
