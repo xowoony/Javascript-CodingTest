@@ -1,1 +1,1 @@
-# practice Javascript-CodingTest
+# practice javascript coding test
